@@ -9,7 +9,7 @@ export const timelineExperienceData: TimelineItem[] = [
     title: "Software Developer Intern",
     role: "Manipal Technologies Ltd",
     date: "April 2024 - July 2024",
-    description: "Developed Document Management System  using ASP.NET with Web Forms, C#, HTML, CSS and MySQL to enhance document storage retrieval.",
+    description: "Developed Document Management System  using ASP.NET with Web Forms, C#, HTML, CSS and MySQL to enhance document storage retrieval. Implemented Secure user Authentication, reducing unauthorized incidents by 60%.",
     skills: ["ReactJS", "Node.js", "Express", "PostgreSQL", "Bootstrap"]
   },
   
