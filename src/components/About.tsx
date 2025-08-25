@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Code, Briefcase, GraduationCap, User } from "lucide-react";
-import profileImage from "../assets/Neeraj-Profile.jpeg";
+import profileImage from "../assets/Shreya-Profile.jpeg";
 
 const About: React.FC = () => {
   return (

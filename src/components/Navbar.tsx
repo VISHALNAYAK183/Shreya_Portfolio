@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Menu, X, Moon, Sun, Download } from "lucide-react";
 import { useTheme } from "../context/ThemeContext";
 import { personalInfo } from "../data";
-import resume from "../assets/Neeraj_Resume.pdf";
+import resume from "../assets/shreya_Resume.pdf";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -94,7 +94,7 @@ const Navbar: React.FC = () => {
 
               <a
                 href={resume}
-                download="Neeraj_Resume.pdf"
+                download="shreya_Resume.pdf"
                 className="flex items-center gap-2 px-4 py-2 rounded-full bg-purple-600 text-white hover:bg-purple-700 transition-colors"
               >
                 <Download size={16} />
@@ -150,7 +150,7 @@ const Navbar: React.FC = () => {
             <li>
               <a
                 href={resume}
-                download="Neeraj_Resume.pdf"
+                download="shreya_Resume.pdf"
                 className="flex items-center gap-2 py-2 text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400"
                 onClick={toggleMenu}
               >
